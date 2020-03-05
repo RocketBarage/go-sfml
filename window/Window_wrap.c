@@ -226,7 +226,7 @@ static void* Swig_malloc(int c) {
 
 
  /* Includes the header in the wrapper code */
- #include <SFML/Window.h>
+ #include "csfml/include/Window.h"
  
 #ifdef __cplusplus
 extern "C" {
